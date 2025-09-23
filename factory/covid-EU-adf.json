@@ -1,0 +1,9 @@
+{
+	"name": "covid-EU-adf",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "497464a0-ea1a-4f05-9376-eb02906cd03d",
+		"tenantId": "77833675-99e1-46df-90ab-7d96b1505510"
+	}
+}
