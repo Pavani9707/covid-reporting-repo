@@ -1,6 +1,6 @@
-# Covid19 Prediction and Reporting
+## Covid19 Prediction and Reporting
 
-## Project Overview
+### Project Overview
 The project focuses on building a comprehensive data platform for the reporting and prediction of COVID-19 spread. 
 
 The primary objectives are:
@@ -11,23 +11,23 @@ Create a robust reporting environment that enables data analysts to efficiently 
 
 The scope of this project is specifically limited to data related to European Union (EU) countries and the United Kingdom (UK).
 
-## Architecture
+### Architecture
 
 ![Architecture](https://github.com/Pavani9707/covid-reporting-repo/blob/ef0009c55dc3ca6ca9735cea61020bbd6b1b5f5b/Architecture.png)
 
-#### Data Sources
-ECDC Website (European Centre for Disease Prevention and Control)
+### Data Sources
+#### ECDC Website (European Centre for Disease Prevention and Control)
 1. Confirmed Cases
 2. Mortality
 3. Hospitalization/ICU Cases
 4. Testing Numbers
 
-Eurostat Website
+#### Eurostat Website
 1. Population by age
 
-#### Data Destinations
+## Data Destinations
 
-Data Lake
+#### Data Lake
 
 The data lake will serve as the centralized repository for all COVID-19–related raw and processed data. It will be populated and updated on a daily basis with the following datasets:
 
@@ -39,7 +39,7 @@ Population demographics: Country-level population statistics segmented by age gr
 
 This data will provide a foundation for the data science team to perform predictive analytics and build machine learning models to forecast the spread of COVID-19 and derive insights.
 
-Data Warehouse
+#### Data Warehouse
 
 A data warehouse will be created and populated with a subset of this curated data from the data lake. 
 This warehouse will include aggregated weekly data for confirmed cases, mortality rates, hospitalizations, ICU admissions, and testing statistics. 
