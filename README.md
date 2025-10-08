@@ -25,7 +25,7 @@ The scope of this project is specifically limited to data related to European Un
 #### Eurostat Website
 1. Population by age
 
-## Data Destinations
+### Data Destinations
 #### Data Lake
 
 The data lake will serve as the centralized repository for all COVID-19–related raw and processed data. It will be populated and updated on a daily basis with the following datasets:
