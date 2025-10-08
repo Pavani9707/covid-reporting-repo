@@ -10,3 +10,7 @@ Develop a data platform to support the data science team in running machine lear
 Create a robust reporting environment that enables data analysts to efficiently generate reports and visualize COVID-19 trends using modern reporting tools.
 
 The scope of this project is specifically limited to data related to European Union (EU) countries and the United Kingdom (UK).
+
+## Architecture
+
+![Architecture](https://github.com/Pavani9707/covid-reporting-repo/blob/ef0009c55dc3ca6ca9735cea61020bbd6b1b5f5b/Architecture.png)
