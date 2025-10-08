@@ -31,10 +31,10 @@ Data Lake
 
 The data lake will serve as the centralized repository for all COVID-19–related raw and processed data. It will be populated and updated on a daily basis with the following datasets:
 
-Confirmed COVID-19 cases: Daily counts of new confirmed cases.
-Mortality data: Daily records of fatalities resulting from COVID-19.
-Hospitalization and ICU statistics: Details on hospital admissions, ICU cases, weekly new admissions, and patients in hospital at the end of each day.
-Testing data: Information on the number of tests conducted per week and the number of new positive cases identified through testing.
+Confirmed COVID-19 cases: Daily counts of new confirmed cases.  
+Mortality data: Daily records of fatalities resulting from COVID-19.  
+Hospitalization and ICU statistics: Details on hospital admissions, ICU cases, weekly new admissions, and patients in hospital at the end of each day.  
+Testing data: Information on the number of tests conducted per week and the number of new positive cases identified through testing.  
 Population demographics: Country-level population statistics segmented by age groups.
 
 This data will provide a foundation for the data science team to perform predictive analytics and build machine learning models to forecast the spread of COVID-19 and derive insights.
