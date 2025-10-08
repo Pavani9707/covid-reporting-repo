@@ -14,3 +14,12 @@ The scope of this project is specifically limited to data related to European Un
 ## Architecture
 
 ![Architecture](https://github.com/Pavani9707/covid-reporting-repo/blob/ef0009c55dc3ca6ca9735cea61020bbd6b1b5f5b/Architecture.png)
+
+#### Data sources
+ECDC Website (European Centre for Disease Prevention and Control)
+1. Confirmed Cases
+2. Mortality
+3. Hospitalization/ICU Cases
+4. Testing Numbers
+Eurostat Website
+1. Population by age
