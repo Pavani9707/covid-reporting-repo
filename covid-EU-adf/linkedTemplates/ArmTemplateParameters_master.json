@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-EU-adf"
+		},
+		"ls_adls_accountKey": {
+			"value": ""
+		},
+		"ls_adls_properties_typeProperties_url": {
+			"value": "https://covideuadls.dfs.core.windows.net/"
+		},
+		"ls_blob_properties_typeProperties_connectionString_secretName": {
+			"value": "blobkey"
+		},
+		"ls_keyvault_properties_typeProperties_baseUrl": {
+			"value": "https://covidreportkv.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
