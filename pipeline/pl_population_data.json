@@ -66,7 +66,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"expression": {
-						"value": "@equals(activity('Get File Metadata').output.columnCount,20)",
+						"value": "@equals(activity('Get File Metadata').output.columnCount, 20)",
 						"type": "Expression"
 					},
 					"ifFalseActivities": [
@@ -77,7 +77,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"message": {
-									"value": "@activity('Get File Metadata').error.message",
+									"value": "@concat('Expected 13 columns but found ', string(activity('Get File Metadata').output.columnCount))\n",
 									"type": "Expression"
 								},
 								"errorCode": "No of columns are mismatched - 0000"
