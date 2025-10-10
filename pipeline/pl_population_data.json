@@ -77,8 +77,8 @@
 						"referenceName": "ds_population_raw_zip",
 						"type": "DatasetReference"
 					},
-					"timeout": "0.00:02:00",
-					"sleep": 15
+					"timeout": "0.00:05:00",
+					"sleep": 60
 				}
 			}
 		],
