@@ -129,11 +129,6 @@
 				}
 			}
 		],
-		"variables": {
-			"sourceRelativeURL": {
-				"type": "String"
-			}
-		},
 		"annotations": []
 	}
 }
