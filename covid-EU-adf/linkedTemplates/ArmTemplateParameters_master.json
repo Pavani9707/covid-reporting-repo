@@ -17,6 +17,9 @@
 		"ls_keyvault_properties_typeProperties_baseUrl": {
 			"value": "https://covidreportkv.vault.azure.net/"
 		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/882111ce-7e9e-4ddf-93f5-4fb5fbf6dfd2/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covideusa"
+		},
 		"containerUri": {
 			"value": ""
 		},

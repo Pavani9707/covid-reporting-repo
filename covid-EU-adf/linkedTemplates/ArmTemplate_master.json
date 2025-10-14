@@ -23,6 +23,10 @@
 			"type": "string",
 			"defaultValue": "https://covidreportkv.vault.azure.net/"
 		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"type": "string",
+			"defaultValue": "/subscriptions/882111ce-7e9e-4ddf-93f5-4fb5fbf6dfd2/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covideusa"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -61,6 +65,9 @@
 					},
 					"ls_blob_properties_typeProperties_connectionString_secretName": {
 						"value": "[parameters('ls_blob_properties_typeProperties_connectionString_secretName')]"
+					},
+					"tr_ingest_population_data_properties_typeProperties_scope": {
+						"value": "[parameters('tr_ingest_population_data_properties_typeProperties_scope')]"
 					}
 				}
 			},
