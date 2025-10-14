@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "blobkey"
 		},
+		"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "@{linkedService().sourceBaseURL}"
+		},
 		"ls_keyvault_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://covidreportkv.vault.azure.net/"
@@ -59,6 +63,9 @@
 					},
 					"ls_adls_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_properties_typeProperties_url')]"
+					},
+					"ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_opendata_ecdc_europe_eu_properties_typeProperties_url')]"
 					},
 					"ls_keyvault_properties_typeProperties_baseUrl": {
 						"value": "[parameters('ls_keyvault_properties_typeProperties_baseUrl')]"
